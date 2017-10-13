@@ -1,0 +1,85 @@
+.y_shop_notice_head{
+	    height: 174px;
+}
+.y_shop_notice_head h1{
+	font-size: 44px;
+    color: #de4767;
+    text-align: center;
+    line-height: 90px;
+}
+.aff{
+	width: 826px;
+    margin: 0 auto;
+}
+.aff li{
+	width: 118px;
+    height: 70px;
+    float: left;
+    background: url(/tp/public/static/img/y_shop_notice.png);
+    background-position: center 10px;
+    background-repeat: no-repeat;
+}
+.aff li span{
+	display: block;
+    text-align: center;
+    padding-top: 45px;
+    cursor: pointer;
+}
+#abd{
+	background-position: center -90px;
+}
+.y_shop_notice_textbox{
+	overflow: hidden;
+    position: relative;
+}
+.y_shop_notice_textbox h2{
+	height: 90px;
+	background: url(/tp/public/static/img/y_shop_notice_title.png);
+	background-repeat: no-repeat;
+    background-position: 10px 29px;
+    line-height: 9999px;
+    overflow: hidden;
+}
+.uasd{
+	padding: 0 36px 100px 36px;
+    background: #fff;
+    width: 929px;
+    margin: 0 auto;
+}
+.cena{
+	border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.cena p{
+	font-size: 14px;
+    line-height: 32px;
+    text-indent: 2em;
+    text-align: left;
+}
+#plas{
+	    background-position: 10px -61px;
+}
+#sp{
+	background-position: 10px -160px;
+}
+#kd{
+	    background-position: 10px -260px;
+}
+#yfs{
+	background-position: 10px -360px;
+}
+#bzwl{
+background-position: 10px -460px;
+}
+#thh{
+	background-position: 10px -560px;
+}
+.bgc{
+	background: #e64560;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 16px;
+}

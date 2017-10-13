@@ -1,0 +1,35 @@
+*{margin: 0px;padding: 0px;}
+
+/*分类*/
+.hh1{width: 1200px;height: 30px;margin: 0px auto;}
+.hh1 span{font-size: 20px;color: #7C7879;}
+#class{width: 1200px;height: 120px;margin:0px auto;border: 1px solid #dcdcdc;background-color: #fcfcfc;}
+.h{width:1200px;height: 30px;clear: both;float: left;padding-top: 10px;border-bottom: 1px dashed #dcdcdc;}
+.h1{float: left;font-size: 16px;margin:0px 50px 0px 10px;color: #333739;font-weight: bold;width: 130px;}
+.h12 ul{list-style: none;width: 1200px;float: left;}
+.h12 li{float: left;margin-right: 10px;font-size: 12px;color: #7C7879;cursor: pointer;margin-bottom: 5px;width: 90px;height: 24px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.h12 li a{text-decoration: none;color: #7C7879;}
+.h12 li a:hover{color: black;}
+/*商品*/
+#q{width: 100%;height:1450px;background-color: #ECECEC;}
+#a{width: 1200px;height:1380px;margin:0px auto;padding-top: 15px;}
+#a font{cursor: pointer;color: #7C7879;font-size: 13px;}
+#a .px{margin-top: 4px;display: inline-block;margin-left: 10px;width: 16px;height: 16px;vertical-align: top;text-align: center;cursor: pointer;;background: url(/tp/public/static/img/order_icon_v1.png) no-repeat -7px -4px;}
+/*#a .px:hover{background-position: -51px -4px;}*/
+#aa{width:240px;height: 317px;float: left;margin-bottom: 20px;}
+#aa1{float: left;width: 220px;height: 317px;font-size: 15px;background-color: white;margin-left:17px;margin-top: 12px;}
+#aa1:hover{box-shadow:4px 4px 7px #bcbcbc;margin-top: 8px;}
+#aa1 img{margin-left: 10px;margin-top: 10px;width: 200px;}
+#aa1 p{width: 200px;margin-left:10px;margin-top: 12px;color:black;font-weight: bold;margin-bottom: 5px;}
+#aa1 p a:hover{color:orangered;border-bottom: 1px solid orangered;}
+#aa1 .sp1{margin-top: 5px;display: inline-block;background: url(/tp/public/static/img/ico.png) 1px -72px no-repeat;width: 13px;height: 10px;margin-right: 5px;}
+#aa1 .sp1:hover{background-position:-12px -72px;}
+#aa1 .sp2{float: right;color: #bbbbbb;}
+#aa1 .p2{margin-left: 10px;color: #FF2D2D;}
+#aa1 .p3{float: right;margin-right: 10px;}
+/*#aa1 span{color:red;margin-left: 70px;}*/
+#b{width: 200px;height: 50px;float:right;margin-right: 120px;}
+#b ul{width: 100px;height: 30px;float: left;}
+#b ul li{float: left;width: 30px;height: 30px;font-size: 20px;text-align: center;line-height: 30px;border-radius: 50%;cursor: pointer;list-style: none;}
+#b ul li:hover{color:white;background-color: #f52a6e;}
+

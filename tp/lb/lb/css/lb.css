@@ -1,0 +1,68 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#imgs{
+
+	margin: 0px auto;
+	width: 320px;
+	height: 480px;
+	position: relative;
+	top: 100px;
+}
+.img{
+
+	position: absolute;
+
+}
+#imgs:hover .button{
+
+	display: block;	
+
+}
+
+.button{
+
+	width: 50px;
+	height: 100px;
+	background: rgba(243,196,230,0.5);
+	top: 150px;
+	position: absolute;
+	font-size: 80px;
+	font-weight: bold;
+	line-height: 100px;
+	color: gray;
+	text-align: center;
+	display: none;
+	cursor: pointer;
+}
+.button2{
+	right: 0px;
+
+}
+
+ul{
+	list-style: none;
+	position: absolute;
+	bottom: 10px;
+	left: 90px;
+}
+
+li{
+
+	float: left;
+	margin-left: 10px; 
+	color: red;
+	font-size: 20px;
+	background-color: #696969;
+	border-radius: 50%;
+	width: 20px;
+	text-align: center;
+	cursor: pointer;
+	opacity: 0.4;
+}
+.ys{
+
+	opacity: 1;
+
+}

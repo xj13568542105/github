@@ -1,0 +1,87 @@
+                                             /*detail详细页面*/
+/*中间内容的大框架*/
+#nr{width: 100%;height: auto;}
+#all{width: 1000px;height: auto;margin: 0px auto;/*background-color: orangered;*/}
+#all .p{color: grey;}
+#all .p a{color:black;font-size: 15px;}
+#all .p b{font-weight: bold;font-size:15px;}
+#all .d1{width: 100%;height: 600px;color:#acacac;}
+#all .d1_img{width: 500px;height: 600px;float: left;/*background-color:black;*/}
+
+/*左大图*/
+#all .d2_img {width: 500px; height: 500px;}
+#all .d1_img img{height: 500px;width: 500px;}
+#all .d1_img #fx{width: 100%;height: 30px;}
+#all .d1_img #fx #fx2{width: 50px;height: 30px;float: right;margin-right: 20px;}
+#all .d1_img #fx #fx1{width: 50px;height: 30px;float: right;}
+#all .d1 .d1_img .fenxiang{display: inline-block;width: 13px;margin-right: 5px;height: 14px;background: url(/tp/public/static/img/detail/4.png) no-repeat 0 -85px;vertical-align: middle;cursor: pointer;}
+#all .d1 .d1_img .xihuan{display: inline-block;margin-right: 5px;width: 13px;height: 10px;background: url(/tp/public/static/img/detail/ico.png) 0 -72px no-repeat;cursor: pointer;}
+#all .d1 .d1_img .lunbo{width: 100%;height: 50px;/*background-color: red;*/}
+#all .d1 .d1_img .lunbo .lunbo_left{float: left;width: 50px;height: 50px;font-size: 50px;line-height: 1;text-align: center;cursor: pointer;}
+#all .d1 .d1_img .lunbo .lunbo_left:hover{color:grey;}
+#all .d1 .d1_img .lunbo .lunbo_da{float: left;width: 370px;height: 55px;position: absolute;left: 235px;overflow: hidden;}
+#all .d1 .d1_img .lunbo .lunbo_tu{width: 740px;height: 50px;}
+#all .d1 .d1_img .lunbo .lb_tu1{width: 74px;height: 50px;float:left;}
+#all .d1 .d1_img .lunbo .lunbo_tu .lb_tu1 img{width: 50px;height: 50px;cursor: pointer;margin-left: 12px;}
+#all .d1 .d1_img .lunbo .lunbo_tu .lb_tu1 img:hover{border: 1px solid #F52A6E;}
+#all .d1 .d1_img .lunbo .lunbo_right{float:right;width: 50px;height: 100%;font-size: 50px;line-height: 1;text-align: center;cursor: pointer;}
+#all .d1 .d1_img .lunbo .lunbo_right:hover{color:grey;}
+/*隐藏div大图*/
+#all .d1 .d1_img .lunbo .ycbg{display: none;width: 1366px;height: 768px;background-color:grey;opacity: 0.5;position: fixed;top: 0px;left: 0px;/*display: none;*/}
+#all .d1 .d1_img .lunbo .yc{display: none;width: 1000px;height: 620px;position: fixed;left: 183px;top: 20px;background-color: black;}
+#all .d1 .d1_img .lunbo .yc .yc1{float: left;width: 100px;color:grey;cursor: pointer;font-size: 80px;line-height: 6.5;text-align: center;}
+#all .d1 .d1_img .lunbo .yc .yc1:hover{color:white;}
+#all .d1 .d1_img .lunbo .yc .yc2{float: left;width: 610px;height: 610px;margin-top: 5px;}
+#all .d1 .d1_img .lunbo .yc .yc2 img{width: 610px;height: 610px; }
+#all .d1 .d1_img .lunbo .yc .yc3{float: left;width: 190px;height: 620px;background-color:white;}
+#all .d1 .d1_img .lunbo .yc .yc3 .yc3_x{width: 190px;height: 80px;}
+#all .d1 .d1_img .lunbo .yc .yc3 .yc3_x p{font-size: 30px;cursor: pointer;margin-left: 150px;line-height: 2}
+#all .d1 .d1_img .lunbo .yc .yc3 .yc3_x p:hover{color:red;}
+#all .d1 .d1_img .lunbo .yc .yc3 .yc3_a{width: 150px;height: 580px;margin:0px auto;}
+#all .d1 .d1_img .lunbo .yc .yc3 .yc3_a p{font-size: 15px;color:grey;}
+#all .d1 .d1_img .lunbo .yc .yc3 .yc3_a_img{float: left;width: 75px;height: 75px;}
+#all .d1 .d1_img .lunbo .yc .yc3 .yc3_a_img img{width: 65px;height: 65px;cursor: pointer;}
+.bkimg{border:1px solid red;}
+/*右侧价格及购买操作*/
+#all .d1_2{width: 450px;color:black;height: 600px;float: left;margin-left: 50px;font-size:20px;font-weight:bold;line-height: 1.5;/*background-color:red;*/}
+#all .d1_2 .p1{width: 450px;height: 80px;margin-top:50px;font-size: 15px;color:grey;line-height: 3;}
+#all .d1_2 .p1 .p1_1{float: left;width: 140px;height: 50px;}
+#all .d1_2 .p1 .p1_2{float: left;width: 140px;height: 50px;color:red;text-align: center}
+#all .d1_2 .p1 .p1_2 b{font-size: 40px;line-height: 1;}
+#all .d1_2 .p1 .p1_3{float: left;width: 140px;height: 50px;text-align:center;}
+
+#all .d1_2 .p2{width: 450px;height: 80px;font-size: 15px;color:grey;line-height: 3;}
+#all .d1_2 .p2 .p2_1{float: left;width: 140px;height: 50px;}
+#all .d1_2 .p2 .p2_2{float: left;width: 140px;height: 50px;padding-top: 10px;}
+#all .d1_2 .p2 .p2_2 .jian{float: left;width: 20px;height: 25px;background-color: #EAEAEA;font-size: 20px;line-height: 1.2;margin-right:5px;margin-left:30px;cursor:pointer;text-align: center}
+#all .d1_2 .p2 .p2_2 input{float: left;width: 30px;height:20px;text-align: center;line-height: 1;margin-top: 2px;}
+#all .d1_2 .p2 .p2_2 .jia {float: left;width: 20px;height: 25px;background-color: #EAEAEA;font-size: 20px;line-height: 1.2;margin-left:5px;cursor:pointer;text-align: center}
+#all .d1_2 .p2 .p2_3{float: left;width: 140px;height: 50px;text-align: center;}
+
+#all .d1_2 .p3{width: 450px;height: 80px;margin-bottom: 40px;font-size: 15px;color:grey;line-height: 3;}
+#all .d1_2 .p3 .p3_1{float:left;width: 225px;height: 50px;}
+#all .d1_2 .p3 .p3_2{float:left;width: 225px;height: 50px;}
+
+#all .d1 .d1_2 .buy{width: 100%;height: 50px;}
+#all .buy .button{width:170px;height: 50px;border-radius:50px;font-size: 25px;line-height: 2;float: left;border: 1px solid #F52A6E;text-align: center;cursor: pointer;}
+#all .buy .button_1{color:white;background-color:#F52A6E;}
+#all .buy .button_2{color:#F52A6E;background-color:white;}
+#all .buy img{width: 250px;margin-top: 20px;}
+
+#all .d2{width: 1000px;height: 100px;margin-top: 20px;}
+#all .d2 img{width: 100%;margin-top: 10px;}
+
+#all .d3{width:1000px;height: 35px;margin-top: 20px;border: 1px solid #acacac;}
+#all .d3 .d3_1{width: 85px;height: 35px;padding: 0px 20px;float: left;font-size: 20px;font-weight: bold;line-height: 1.8;color:grey;cursor: pointer;}
+#all .d3 .d3_1:hover{background-color:black;color:white;}
+#all .d3 .d3_2{width: 85px;height: 35px;padding: 0px 20px;float: left;font-size: 20px;font-weight: bold;line-height: 1.8;color:grey;cursor: pointer;}
+#all .d3 .d3_2:hover{background-color:black;color:white;}
+
+#all .d4{width: 1000px;min-height: 900px;height:auto;margin-top: 40px;}
+#all .d4 .d4_1{width: 800px;height: 800px;margin: 0px auto;}
+#all .d4 .d4_1 p{border-left:4px solid #F52A6E;font-size: 15px;}
+#all .d4 .d4_1 table{margin-top: 30px;}
+#all .d4 .d4_1 table tr{height: 40px;font-size: 25px;}
+#all .d4 p{border-left: 4px solid #F52A6E;font-size: 15px;padding-left: 20px;color:grey;}
+
+.d5{width: 800px;height: auto;margin:0px auto;}

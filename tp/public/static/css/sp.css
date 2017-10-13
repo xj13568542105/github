@@ -1,0 +1,56 @@
+*{margin: 0px;padding: 0px;}
+
+/*分类*/
+
+.hh1{width: 1200px;height: 30px;margin: 0px auto;}
+.hh1 span{font-size: 20px;color: #7C7879;}
+.class{width: 1200px;margin:0px auto;border: 1px solid #dcdcdc;background-color: #fcfcfc;}
+/*服装*/
+.class1{min-height: 81px;}
+/*专辑*/
+.class2{min-height: 81px;}
+/*化妆品*/
+.class3{height: 160px;}
+/*食品*/
+.class4{height: 325px;}
+/*手机*/
+.class5{height: 120px;}
+/*家电*/
+.class6{min-height: 81px;}
+/*汽车*/
+.class7{min-height: 40px;}
+/*百货*/
+.class8{min-height: 286px;}
+.h{width:1200px;height: 30px;clear: both;float: left;padding-top: 10px;border-bottom: 1px dashed #dcdcdc;}
+.h1{float: left;font-size: 16px;margin:0px 50px 0px 10px;color: #333739;font-weight: bold;width: 130px;}
+.h12 ul{list-style: none;width: 1200px;float: left;}
+.h12 li{float: left;margin-right: 10px;font-size: 12px;color: #7C7879;cursor: pointer;margin-bottom: 5px;width: 90px;height: 24px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.h12 li a{text-decoration: none;color: #7C7879;}
+.h12 li a:hover{color: black;}
+
+/*商品*/
+#q{width: 100%;min-height:1500px;background-color: #ECECEC;}
+#a{width: 1200px;margin:0px auto;min-height:1415px;padding-top: 15px;}
+#a font{cursor: pointer;color: #7C7879;font-size: 13px;}
+#a .px{margin-top: 4px;display: inline-block;margin-left: 10px;width: 16px;height: 16px;vertical-align: top;text-align: center;cursor: pointer;;background: url(/tp/public/static/img/order_icon_v1.png) no-repeat -7px -4px;}
+/*商品外框*/
+#aa{width:240px;height: 317px;float: left;margin-bottom: 20px;}
+#aa1{float: left;width: 220px;height: 317px;font-size: 15px;background-color: white;margin-left:17px;margin-top: 12px;}
+#aa1:hover{box-shadow:4px 4px 7px #bcbcbc;margin-top: 8px;}
+#aa1 .p{width: 220px;height: 240px;float: left;}
+#aa1 .p img{margin-left: 20px;margin-top: 8px;width: 180px;}
+/*商品标题*/
+#aa1 .p1{float: left;width: 200px;height: 40px;padding:0px 10px;margin-top:5px;text-align: center;color:black;font-weight: bold;margin-bottom: 5px;}
+#aa1 .p1 a{color: black;}
+#aa1 .p1 a:hover{color:orangered;border-bottom: 1px solid orangered;} 
+/*商品价格*/
+#aa1 .p2{float:left;width: 220px;height: 25px;margin-bottom: 5px;padding-bottom: 5px;}
+#aa1 .p2 .sp{float:left;margin-left:10px;width: 60px;height: 25px;color: #FF2D2D;}
+#aa1 .p2 .sp1{float:left;margin-left:80px;margin-top:5px;width:13px;display: inline-block;background: url(/tp/public/static/img/ico.png) 1px -72px no-repeat;width: 13px;height: 10px;margin-right: 5px;}
+#aa1 .p2 .sp1:hover{background-position:-12px -72px;}
+#aa1 .p2 .sp2{font-weight: bold;color: #bbbbbb;}
+/*分页*/
+#b{width: 200px;height: 50px;float:right;margin-right: 120px;}
+#b ul{width: 100px;height: 30px;float: left;}
+#b ul li{float: left;width: 30px;height: 30px;font-size: 20px;text-align: center;line-height: 30px;border-radius: 50%;cursor: pointer;list-style: none;}
+#b ul li:hover{color:white;background-color: #f52a6e;}

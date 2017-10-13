@@ -1,0 +1,60 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+#a1{
+	height: 400px;
+	background-color: red;
+}
+#a2{
+	height: 600px;
+	background-color: orange;
+}
+#a3{
+	height: 600px;
+	background-color: orangered;
+}
+#a4{
+	height: 350px;
+	background-color: yellow;
+}
+#a5{
+	height: 500px;
+	background-color: green;
+}
+#a6{
+	height: 400px;
+	background-color: blue;
+}
+#a7{
+	height: 800px;
+	background-color: purple;
+}
+ul{
+	cursor: pointer;
+	position: fixed;
+	right: 20px;
+	bottom: 30px;
+}
+ul li{
+	color: white;
+	line-height: 1;
+	text-align: center;
+	margin-top: 30px;
+	width: 50px;
+	height: 20px;
+	font-size: 20px;
+	border-radius: 9px;
+	background-color: grey;
+}
+ul li:hover{
+	color: black;
+	background-color: yellowgreen;
+}
+.aa{
+	color: black;
+	background-color: yellowgreen;
+}
+
